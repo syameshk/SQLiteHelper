@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sqlitetest.syam.com.sqlitetest.MainActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+        <Button
+            android:id="@+id/ReadBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Read"
+            android:onClick="onReadButtonClick"
+            tools:layout_editor_absoluteX="-27dp"
+            tools:layout_editor_absoluteY="29dp" />
+
+        <Button
+            android:id="@+id/writeBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Write"
+            android:onClick="onWriteButtonClick"
+            tools:layout_editor_absoluteX="206dp"
+            tools:layout_editor_absoluteY="425dp" />
+
+            <Button
+                android:id="@+id/deleteBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onDeleteButtonClick"
+                android:text="Delete"
+                tools:layout_editor_absoluteX="206dp"
+                tools:layout_editor_absoluteY="425dp" />
+    </LinearLayout>
+<LinearLayout
+    android:layout_height="400dp"
+    android:layout_width="match_parent"
+    tools:layout_editor_absoluteY="0dp"
+    tools:layout_editor_absoluteX="8dp">
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textMultiLine" />
+
+    </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>
